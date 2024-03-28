@@ -12,6 +12,7 @@ function addButtonBehaviour(){
     newList.innerText = inputTask;
     list.append(newList);
     list.style.listStyleType = "disc";
+     list.style.paddingLeft = "4rem";
     }
 };
 
