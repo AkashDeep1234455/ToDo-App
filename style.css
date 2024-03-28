@@ -1,0 +1,136 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #31363F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    width: 100vw;
+    height: 10vh;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.mainbox{
+    border-radius: 0.5rem;
+    width: 23rem;
+    height: auto;
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+}
+.tasks{
+    width: 100%;
+    height: 33rem;
+    background-color: #FEFDED;
+    border-radius: 0.6rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.newTask{
+    margin-bottom: 1.5rem;
+    height: 1.9rem;
+    display: flex;
+    width: 100%;
+}
+.userInput{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    font-size:medium;
+    border: none;
+}
+.userInput[type="text"]{
+    padding-left: 1rem;
+}
+input:focus{
+    outline: none;
+}
+#add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110%;
+    width: 3rem;
+    border-radius: 0.5rem;
+    background-color: #76ABAE;
+    border: none;
+    margin-left: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#add span{
+    opacity: 0.8;
+}
+#add:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+ul {
+    padding-left: 4rem;
+    margin-top: 0;
+    font-size: x-large;
+}
+
+
+.tasks::-webkit-scrollbar{
+    border-radius: 2rem;
+    width: 0.7rem;
+   
+}
+.tasks::-webkit-scrollbar-thumb{
+    border-radius: 2rem;
+    background-color: #76ABAE;
+    height: 10%;
+    
+}
+.tasks button{
+    position: relative;
+    left: 20.3rem;
+    top:0.55rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    border: none;
+
+}
+.tasks button:hover{
+    background-color: rgba(136, 151, 152, 0.5);
+    cursor: pointer;
+}
+
+input[type="checkbox"]{
+    margin-right: 0.5rem; 
+}
+
+
+
+
+#deletebutton{
+    position: relative;
+    left: 8.7rem;
+    top: -2.5rem;
+    background-color: #76ABAE;
+    width: 4.5rem;
+    border: none;
+    border-radius: 0.3rem;
+    height: 2rem;
+}
+#deletebutton:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
